@@ -5,7 +5,7 @@ import WordCard from './WordCard';
 
 function App() {
 
-  const words = ["hello", "love", "coffee", "computer"]
+  const words = ["hello", "love", "coffee"]
   var word = words[Math.floor(Math.random()*words.length)];
 
   return (
