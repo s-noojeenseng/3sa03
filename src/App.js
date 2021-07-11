@@ -20,12 +20,12 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="game">
       <h1>Hint: {hint}</h1>
       {
         <WordCard value={word} />
       }
-      <button onClick={() => window.location.reload()}>New word!</button>
+      <button onClick={() => window.location.reload()}>Try Again!</button>
     </div>
   );
 }
