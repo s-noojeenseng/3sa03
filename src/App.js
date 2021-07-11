@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div>
+      <h1>Hint: {word.length}-letter word</h1>
       {
         <WordCard value={word} />
       }
