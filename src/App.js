@@ -25,6 +25,7 @@ function App() {
       {
         <WordCard value={word} />
       }
+      <button onClick={() => window.location.reload()}>New word!</button>
     </div>
   );
 }
